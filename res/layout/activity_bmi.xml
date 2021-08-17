@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/bmiLayout">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/fitapp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/calculate_your_bmi"
+            android:textColor="@color/white"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@color/light_fitapp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/weight"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:gravity="left"/>
+
+            <EditText
+                android:id="@+id/inputWeightId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:gravity="right"
+                android:hint="@string/kg"
+                android:textSize="15dp"
+                android:inputType="number"/>
+
+        </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp"
+                android:background="@color/light_fitapp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/height"
+                    android:layout_margin="10dp"
+                    android:textStyle="bold"
+                    android:textSize="20dp"
+                    android:gravity="left"/>
+
+                <EditText
+                    android:id="@+id/inputHeightId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:gravity="right"
+                    android:hint="height (cm)"
+                    android:textSize="15dp"
+                    android:inputType="number"/>
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/checkpointBoxId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@color/light_fitapp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/checkpoint_date"
+                android:layout_margin="10dp"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="left"/>
+
+            <EditText
+                android:id="@+id/dateId"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|right"
+                android:gravity="right"
+                android:hint="click to select date"
+                android:textSize="15dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bmiBackgroundId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:background="@color/light_fitapp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/BMI"
+                android:textStyle="bold"
+                android:layout_margin="10dp"
+                android:textSize="20dp"
+                android:gravity="left"/>
+
+            <TextView
+                android:id="@+id/resultId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_margin="10dp"/>
+
+            <TextView
+                android:id="@+id/textViewMessageId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20dp"
+                android:layout_margin="10dp" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingTop="15dp">
+
+
+        <Button
+            android:id="@+id/btnAddId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"
+            android:visibility="invisible"/>
+
+        <Button
+            android:id="@+id/btnCalculateId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calculate"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"/>
+
+        <Button
+            android:id="@+id/btnShowId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/show"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"/>
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

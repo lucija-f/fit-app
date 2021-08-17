@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FitApp</string>
+    <string name="textFitApp">FitApp</string>
+    <string name="workout">WORKOUT</string>
+    <string name="bmi">BMI</string>
+    <string name="calculate_your_bmi">CALCULATE YOUR BMI</string>
+    <string name="height">INSERT YOUR HEIGHT</string>
+    <string name="weight">INSERT YOUR WEIGHT</string>
+    <string name="kg">weight (kg)</string>
+    <string name="cm">height (cm)</string>
+    <string name="calculate">CALCULATE</string>
+    <string name="add">ADD</string>
+    <string name="show">SHOW</string>
+    <string name="BMI">BMI</string>
+    <string name="checkpoint_date">CHECKPOINT DATE</string>
+    <string name="get_ready_in">GET READY IN:</string>
+    <string name="choose">CHOOSE</string>
+
+
+</resources>
